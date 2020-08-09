@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "create/cipher/version"
+require "create_cipher/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "create-cipher"
-  spec.version       = Create::Cipher::VERSION
+  spec.version       = CreateCipher::VERSION
   spec.authors       = ["Matthew Eagar"]
   spec.email         = ["meagar@hey.com"]
 
